@@ -37,19 +37,19 @@ Accident_prediction/
 ├── model.ipynb # Jupyter Notebook for training
 └── README.md # Project documentation
 
-2. Install dependencies
+## Install dependencies
    
 pip install -r requirements.txt
 
 pip install flask pandas numpy scikit-learn
 
-4. Run the application
+## Run the application
    
 python app.py
 
 Navigate to http://127.0.0.1:5000 in your browser.
 
-📊 Model Training
+## 📊 Model Training
 
 The model is trained in model.ipynb using:
 
@@ -61,7 +61,7 @@ Dataset: accident.csv
 
 Saved with: joblib.dump(model, 'model.pkl')
 
-✅ Inputs Expected
+## ✅ Inputs Expected
 
 Age: Integer (1-120)
 
@@ -74,9 +74,11 @@ Helmet Used: Yes/No
 Seatbelt Used: Yes/No
 
 
-📌 To Do
+ ## To Do
  Add database to store predictions
+ 
  Add model accuracy feedback
+ 
  Host app on cloud (Heroku/Render)
 
 
